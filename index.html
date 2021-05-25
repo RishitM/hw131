@@ -1,0 +1,65 @@
+<html>
+<head>
+
+	<title>Object Detection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="bckgrnd.jpeg">
+  <nav class="navbar-inverse menu">
+    <div class="navbar-header">
+        <button class="nav-toggle" data-toggle="collapse" data-target="#links">
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+            <span class="icon-bar">
+            </span>
+        </button>
+    </div>
+    <div class="collapse navbar-collapse" id="links">
+        <ul class="nav navbar-nav">
+            <li class="links"><a href="#Home">Home</a></li>
+            <li class="links"><a href="#basket">Fruit Basket</a></li>
+            <li class="links"><a href="#bed">Bed</a></li>
+            <li class="links"><a href="#bottle">Bottle</a></li>
+            <li class="links"><a href="#desk">Desk</a></li>
+            <li class="links"><a href="#tv">Television</a></li>
+        </ul>
+    </div>
+</nav>
+
+  <center>
+    <div id="Home">
+    <h1 class="a">Object Detection By - Rishit Mahajan</h1>
+   
+    <h1 class="a">Things That I Have Detected-</h1>
+    <br>
+    <h4 class="a">Note-click on the buttons to see the next page</h4>
+  <br><br>
+  <h1 class="btn btn-info " onclick="redirect1()">Fruit Basket</h1>
+  <br>
+  <h1 class="btn btn-info "onclick="redirect2()">Bed</h1>
+  <br>
+  <h1 class="btn btn-info "onclick="redirect3()">Bottle</h1>
+  <br>
+  <h1 class="btn btn-info "onclick="redirect4()">Desk</h1>
+  <br>
+  <h1 class="btn btn-info "onclick="redirect5()">TV</h1>
+  </div>
+  
+  </center>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
