@@ -14,7 +14,7 @@ strokeWeight(4);
 noFill()
 textSize(50);
 textStyle(NORMAL);
-text("Bed:",150,115)
+text("Bed:89%",150,115)
 rect(150, 80, 500, 400);
 
 }

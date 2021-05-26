@@ -14,7 +14,7 @@ strokeWeight(4);
 noFill()
 textSize(50);
 textStyle(NORMAL);
-text("Fruits:",150,115)
+text("Fruits:69%",150,115)
 rect(150, 80, 400, 400);
 
 }

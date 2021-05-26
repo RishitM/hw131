@@ -14,7 +14,7 @@ strokeWeight(4);
 noFill()
 textSize(50);
 textStyle(NORMAL);
-text("Desk:",150,115)
+text("Desk:78%",150,115)
 rect(150, 80, 400, 400);
 
 }

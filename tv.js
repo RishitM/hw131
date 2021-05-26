@@ -14,7 +14,7 @@ strokeWeight(4);
 noFill()
 textSize(50);
 textStyle(NORMAL);
-text("Television:",150,115)
+text("Television:98%",150,115)
 rect(150, 80, 400, 400);
 
 }
